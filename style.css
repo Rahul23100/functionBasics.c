@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill Sans';
+}
+
+#circle:hover{
+    background-color: blueviolet;
+    border-radius:50%;
+}
+
+#square:hover{
+    background-color: aqua;
+
+}
+#rhombus:hover{
+    background-color: aquamarine;
+    rotate: 45deg;
+    margin-top: 50px;
+}
