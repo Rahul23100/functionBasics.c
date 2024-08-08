@@ -1,46 +1,70 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 3;
+    letter-spacing: 1px;
+  }
+  
+  
+  html {
+    background-color: #9627f0;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #a704ff;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #FF8C19;
+    text-shadow: 3px 3px 1px black;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
 
-}
-
-html,body{
-    height: 100%;
-    width: 100%;
-}
-
-#main{
-    height: 100%;
-    width: 100%;
-    background-color: antiquewhite;
+  .flex-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 30%;
+  }
+  
+  .box img {
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF8C19;
+    color: #020202;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fa29fe;
+  }
 
-.shape{
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    margin: 10px 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-family: 'Gill Sans';
-}
 
-#circle:hover{
-    background-color: blueviolet;
-    border-radius:50%;
-}
-
-#square:hover{
-    background-color: aqua;
-
-}
-#rhombus:hover{
-    background-color: aquamarine;
-    rotate: 45deg;
-    margin-top: 50px;
-}
